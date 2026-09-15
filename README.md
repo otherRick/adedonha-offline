@@ -33,24 +33,6 @@ Este repositório é um **projeto de portfólio** que demonstra, na prática, a 
 
 ---
 
-## 📸 Screenshots / GIFs
-
-> _Espaço reservado para mídias demonstrando a gameplay._
-
-| Tela inicial | Sala / Lobby | Jogo | Placar final |
-| :---: | :---: | :---: | :---: |
-| 🖼️ *em breve* | 🖼️ *em breve* | 🖼️ *em breve* | 🖼️ *em breve* |
-
-```bash
-# Sugestão de onde colocar as mídias depois:
-# assets/screenshots/inicial.png
-# assets/screenshots/lobby.png
-# assets/screenshots/jogo.png
-# assets/screenshots/placar.png
-```
-
----
-
 ## 🛠️ Tecnologias & Arquitetura
 
 ### Stack técnica
@@ -115,50 +97,6 @@ O host e os convidados trocam **mensagens JSON** com uma chave `tipo` que define
 
 ---
 
-## ▶️ Como Executar o Projeto
-
-### ✅ Pré-requisitos
-
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) **3.47+** (Dart 3.13+)
-- Um emulador ou aparelho físico conectado
-
-### 🚀 Passo a passo
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/adedanhaoffline.git
-
-# 2. Acesse a pasta do projeto
-cd adedanhaoffline
-
-# 3. Instale as dependências
-flutter pub get
-
-# 4. Rode o app (com um dispositivo/emulador conectado)
-flutter run
-```
-
-> 💡 Para listar os dispositivos disponíveis: `flutter devices`
-
-### 📱 Testando o multiplayer (2+ jogadores)
-
-1. Conecte **dois ou mais aparelhos na mesma rede Wi-Fi**.
-2. No primeiro aparelho, toque em **"Criar sala"**, defina seu nome e a configuração da partida.
-3. Anote o **IP exibido na tela do host** (ex.: `192.168.0.10`).
-4. Nos demais aparelhos, toque em **"Entrar em uma sala"**, digite o IP e o nome.
-5. Quando todos aparecerem na lista, o host toca em **"Iniciar partida"**. 🎉
-
-### 🧪 Verificações de qualidade
-
-```bash
-# Análise estática (lint)
-flutter analyze
-
-# Testes (smoke test da tela inicial)
-flutter test
-```
-
----
 
 ## ⚖️ Propriedade Intelectual & Licença
 
